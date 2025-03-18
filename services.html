@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetler - BusinessPro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>BusinessPro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Service Filter -->
+    <section id="services">
+        <h2>Hizmetlerimiz</h2>
+        <div id="serviceFilter">
+            <label for="serviceSelect">Hizmet Seçin:</label>
+            <select id="serviceSelect">
+                <option value="all">Tüm Hizmetler</option>
+                <option value="webDesign">Web Tasarımı</option>
+                <option value="seo">SEO Hizmetleri</option>
+                <option value="ecommerce">E-Ticaret Çözümleri</option>
+            </select>
+        </div>
+
+        <div id="serviceList">
+            <div class="service-card" data-category="webDesign">
+                <h3>Web Tasarımı</h3>
+                <p>Modern, şık ve kullanıcı dostu web tasarımları.</p>
+            </div>
+            <div class="service-card" data-category="seo">
+                <h3>SEO Hizmetleri</h3>
+                <p>Web sitenizin Google arama sonuçlarında üst sıralara çıkmasını sağlıyoruz.</p>
+            </div>
+            <div class="service-card" data-category="ecommerce">
+                <h3>E-Ticaret Çözümleri</h3>
+                <p>Online satış platformları ile işinizi büyütün.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BusinessPro | Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
